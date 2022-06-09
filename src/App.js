@@ -1,17 +1,17 @@
-import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import Form from "./components/Form/Form";
 
+import React from 'react';
+import AboutUs from './Components/AboutUs/AboutUs';
+import {BrowserRouter} from "react-router-dom";
+
+import './App.css';
 
 function App() {
   return (
-    <>
-      
+    <div className="App">
       <BrowserRouter>
-        <Form />
+        <AboutUs></AboutUs>
       </BrowserRouter>
-      
-    </>
+    </div>
   );
 }
 
